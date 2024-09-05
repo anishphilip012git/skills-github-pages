@@ -11,6 +11,35 @@ The K-Way Merge technique involves merging multiple sorted arrays into a single 
 **Example Scenario:**
 
 Imagine we have four sorted arrays that need to be merged into one sorted array. The K-Way Merge algorithm would use a min-heap to repeatedly extract the smallest element from the heap and insert it into the resulting array.
+```go
+
+func mergeSortedArrays(arrays [][]int) []int {
+	var result []int
+	pointers := make([]int, len(arrays))
+
+	for {
+		var minValue int
+		minIndex := -1
+		for i, p := range pointers {
+			if p < len(arrays[i]) {
+				if minIndex == -1 || arrays[i][p] < minValue {
+					minValue = arrays[i][p]
+					minIndex = i
+				}
+			}
+		}
+
+		if minIndex == -1 {
+			break
+		}
+
+		result = append(result, minValue)
+		pointers[minIndex]++
+	}
+
+	return result
+}
+```
 
 ### Parallel Merge
 

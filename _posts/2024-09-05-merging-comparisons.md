@@ -1,4 +1,10 @@
-# Comparing K-Way Merge and Parallel Merge Strategies
+---
+layout: post
+title: "Comparing K-Way Merge and Parallel Merge Strategies"
+date: 2024-09-05 12:00:00
+categories: blog
+---
+
 
 In the realm of sorting and merging data, particularly with large datasets, choosing an effective merge strategy is crucial. Two prominent techniques are K-Way Merge and Parallel Merge. This blog post explores these methods using Go code, demonstrating their implementation and comparing their efficiencies.
 

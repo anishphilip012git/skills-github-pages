@@ -1,0 +1,6 @@
+title: My Test Blog
+description: A place for my test thoughts
+baseurl: ""
+url: "ttps://github.com/anishphilip012git/skills-github-pages"
+markdown: kramdown
+theme: minima

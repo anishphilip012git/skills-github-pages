@@ -163,3 +163,16 @@ This problem showcases the power of optimizing brute force solutions by leveragi
 
 By understanding and applying these principles, you can tackle a wide variety of problems involving distinct element groupings in arrays!
 
+Thanks to :
+- [Source](https://leetcode.com/problems/number-of-unequal-triplets-in-array/solutions/5538953/easiest-faster-lesser-c-python3-java-c-python-c-explained-beats/)
+- Similar questions 
+Q - [#1460]( https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/solutions/5538697/easiestfaster-lesser-cpython3javacpythoncexplained-beats)
+
+Q - [#1534](https://leetcode.com/problems/count-good-triplets/solutions/5538845/easiestfaster-lesser-cpython3javacpythoncexplained-beats)
+
+Q - [#2367](https://leetcode.com/problems/number-of-arithmetic-triplets/solutions/5539085/easiestfaster-lesser-cpython3javacpythoncexplained-beats)
+
+Q - [#2908](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/solutions/5539207/easiestfaster-lesser-cpython3javacpythoncexplained-beats)
+
+
+

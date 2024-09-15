@@ -40,6 +40,22 @@ def unequalTripletsBruteForce(nums):
 
 While this approach works for small arrays, it is inefficient for larger arrays, given its cubic time complexity. This brings us to an optimized solution using **frequency counting**.
 
+
+## Simple Optmisation: doesn't change complexity much
+```
+class Solution:
+    def unequalTriplets(self, nums: List[int]) -> int:
+        n = len(nums)
+        cnt = 0
+        for i in range(n - 2):
+            for j in range(i + 1, n - 1):
+                if nums[i] != nums[j]:
+                    for k in range(j + 1, n):
+                        if nums[j] != nums[k] and nums[k] != nums[i]:
+                            cnt += 1
+
+        return cnt
+```
 ## Optimized Approach: Frequency Count and Two-Pointer Logic
 
 We can use the frequency of each unique element in the array to optimize the solution. This drastically reduces the complexity to **O(n)** by avoiding the need to check all possible combinations.
